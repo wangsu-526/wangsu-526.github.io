@@ -1,0 +1,480 @@
+
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+
+}
+.swiper-slide {
+    text-align: center;
+    background: #fff;
+    background: url("../img/body.jpg");
+    width: 100%;
+    height: 100%;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+
+}
+.swiper-slide.one{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.one #one-1{
+    position: absolute;
+    width: 73%;
+    height: 29%;
+    top: -8%;
+    left: -28%;
+}
+.swiper-slide.one #one-2{
+    position: absolute;
+    width: 64%;
+    height: 23%;
+    top: -8%;
+    right: -20%;
+}
+.swiper-slide.one #one-3{
+    position: absolute;
+    width: 23%;
+    height: 17%;
+    top: 41%;
+    left: -9%;
+}
+.swiper-slide.one #one-5{
+    position: absolute;
+    width: 24%;
+    height: 13%;
+    top: 24%;
+    left: 41%;
+}
+.swiper-slide.one #one-6{
+    position: absolute;
+    width: 33%;
+    height: 4%;
+    top: 49%;
+    right: 30%;
+}
+.swiper-slide.one #one-7{
+    position: absolute;
+    width: 25%;
+    height: 1.5%;
+    top: 57.5%;
+    right: 33%;
+}
+.swiper-slide.one #one-4{
+    position: absolute;
+    width: 53%;
+    height: 0.3%;
+    top: 55%;
+    right: 19%;
+    opacity: 0.6;
+}
+.swiper-slide.one #one-8{
+    position: absolute;
+    width: 8%;
+    height: 7%;
+    top: 66%;
+    right: 42%;
+}
+.swiper-slide.one #one-9{
+    position: absolute;
+    width: 17%;
+    height: 24%;
+    top: 28%;
+    right: -6%;
+}
+.swiper-slide.one #one-10{
+    position: absolute;
+    width: 60%;
+    height: 26%;
+    bottom: -6%;
+    left: -14%;
+}
+.swiper-slide.one #one-11{
+    position: absolute;
+    width: 52%;
+    height: 37%;
+    bottom: -16%;
+    right: -14%;
+}
+.swiper-slide.two{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide .two-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+}
+.swiper-slide .shuzi1{
+    position: absolute;
+    width: 65%;
+    height: 93%;
+    top: -33%;
+    right: -4%;
+}
+.swiper-slide .shuzi2{
+    position: absolute;
+    width: 74%;
+    height: 28%;
+    top: 65%;
+    left: -12%;
+}
+.swiper-slide .shuzi3{
+    position: absolute;
+    width: 23%;
+    height: 13%;
+    top: 70%;
+    left: 7%;
+}
+.swiper-slide.two .two-4{
+    width: 100%;
+    position: absolute;
+    height: 35%;
+}
+.swiper-slide.two .two-3{
+    width: 100%;
+    position: absolute;
+    height: 35%;
+    top: 20%;
+    left: 0;
+ }
+.swiper-slide.two #two-4{
+    position: absolute;
+    width: 16%;
+    height: 24%;
+    top: 43%;
+    left: 28%;
+}
+.swiper-slide.two #two-5{
+    position: absolute;
+    width: 23%;
+    height: 35%;
+    top: 37.5%;
+    left: 24%;
+ }
+.swiper-slide.two #two-6{
+    position: absolute;
+    width: 10%;
+    height: 16%;
+    top: 39%;
+    left: 36%;
+}
+.swiper-slide.two #two-7{
+    position: absolute;
+    width: 28%;
+    height: 0.5%;
+    top: 54.4%;
+    right: 27%;
+}
+.swiper-slide.two #two-8{
+    position: absolute;
+    width: 12%;
+    height: 9%;
+    top: 44%;
+    right: 37%;
+}
+
+.swiper-slide.two .two-4{
+    color: #fff;
+    font-size: 0.35rem;
+    text-align: left;
+    line-height: 10px;
+}
+.swiper-slide.two .two-41{
+    position: absolute;
+    top: 51%;
+    left: 16%;
+}
+.swiper-slide.two .two-42{
+    position: absolute;
+    top: 51%;
+    right: 11%;
+}
+.swiper-slide.two .two-43{
+    position: absolute;
+    top: 84%;
+    left: 16%;
+}
+.swiper-slide.two .two-44{
+    position: absolute;
+    top: 84%;
+    right: 29%;
+}
+.swiper-slide.two .two-411{
+    color: #ffcf2c;
+}
+.swiper-slide .two-5{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 69%;
+    left: 0;
+}
+.swiper-slide .shuzi4{
+    position: absolute;
+    width: 10%;
+    height: 6%;
+    top: 13%;
+    left: 9%;
+}
+.swiper-slide .shuzi5{
+    position: absolute;
+    width: 8%;
+    height: 5%;
+    top: 18%;
+    left: 18%;
+}
+.swiper-slide .shuzi6{
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    top: 14%;
+    left: 22%;
+}
+.swiper-slide .shuzi7{
+    position: absolute;
+    width: 33%;
+    height: 3%;
+    top: 17%;
+    left: 57%;
+}
+.swiper-slide .shuzi8{
+    position: absolute;
+    width: 40%;
+    height: 0.2%;
+    top: 16%;
+    right: 0;
+}
+.swiper-slide .shuzi9{
+    position: absolute;
+    width: 0.2%;
+    height: 10%;
+    top: 11%;
+    right: 10%;
+}
+.swiper-slide.three{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.three .three-4{
+    position: absolute;
+    color: #fff;
+    top: 35%;
+    width: 100%;
+    left: 20%;
+    text-align: left;
+    text-indent: 2rem;
+}
+.swiper-slide.three .three-4 .three-41{
+    width: 60%;
+    line-height: 1.5rem;
+}
+.swiper-slide.three .three-4 .three-42{
+    width: 60%;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+}
+.swiper-slide.four{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.four .four-1{
+    color: #fff;
+    margin-top: 1rem;
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    text-align: left;
+}
+.swiper-slide.four .four-1>div{
+    padding-bottom: 2%;
+    text-indent: 2rem;
+}
+.swiper-slide.five{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.five .five-img img{
+    width: 71%;
+    position: absolute;
+    left: 13%;
+    top: 51%;
+}
+.swiper-slide.six .six-666 img{
+    width: 71%;
+    position: absolute;
+    left: 13%;
+    top: 56%;
+}
+.swiper-slide.seven .seven-img img{
+    width: 71%;
+    position: absolute;
+    left: 13%;
+    top: 56%;
+}
+.swiper-slide .five-1{
+    color: #fff;
+    text-indent: 2rem;
+    text-align: left;
+    margin-top: 1rem;
+    width: 80%;
+    position: absolute;
+    left: 9%;
+    top:22%;
+}
+.swiper-slide .five-1 .five1{
+    color: #ffcf2c;
+    margin-left: -10%;
+    padding: 5% 0;
+    text-align: center;
+}
+.swiper-slide.eight .five-1 div{
+    text-align: left;
+}
+.swiper-slide.eight .five-1 .eight-1{
+    position: absolute;
+    right: 0;
+    width: 44%;
+    height: 40%;
+    top: 1%;
+}
+.swiper-slide .shuzi10{
+    position: absolute;
+    width: 0.2%;
+    height: 33%;
+    top:61%;
+    left: 10%;
+}
+.swiper-slide .shuzi11{
+    position: absolute;
+    width: 43%;
+    height: 0.2%;
+    top: 76%;
+    left: -1%;
+}
+.swiper-slide.eleven .eleven-tu1{
+    position: absolute;
+    top: 26%;
+    left: 33%;
+    width: 36%;
+    height: 3%;
+
+}
+.swiper-slide.eleven .eleven-tu2{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    width: 29%;
+    height: 2.5%;
+}
+.swiper-slide.eleven .eleven-tu3{
+    position: absolute;
+    top: 38%;
+    left: 35%;
+    width: 32%;
+    height: 17%
+}
+.swiper-slide.eleven .eleven-tu4{
+    position: absolute;
+    top: 39%;
+    left: 37%;
+    width: 28%;
+    height: 15%;
+}
+.swiper-slide.eleven .eleven-tu5{
+    position: absolute;
+    top: 56%;
+    left: 40%;
+    width: 21%;
+    height: 2%;
+}
+.swiper-slide.eleven .eleven-tu6{
+    position: absolute;
+    top: 66%;
+    left: 30%;
+    width: 44%;
+    height: 6%;
+}
+.swiper-slide.eleven .eleven-tu7{
+    position: absolute;
+    top: 67%;
+    left: 35%;
+    width: 5.5%;
+    height: 3.5%;
+}
+.swiper-slide.eleven .eleven-tu8{
+    position: absolute;
+    top: 67.5%;
+    left: 45%;
+    width: 22%;
+    height: 2.5%;
+}
+.swiper-slide.eleven .eleven-tu9{
+    position: absolute;
+    top: 39%;
+    left: 37%;
+    width: 28%;
+    height: 15%;
+}
+#music{
+    position: fixed;
+    top: 1%;
+    right: 5%;
+    z-index: 9;
+    width: 60px;
+    height: 60px;
+}
+.music_bg {
+    width: 60px;
+    height: 60px;
+}
+.music_tp{
+    animation: mymusic 2s linear infinite;
+    height: 44px;
+    width: 44px;
+    position: absolute;
+    top:8px;
+    right: 8px;
+}
+@keyframes mymusic {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.two-411 {
+    font-size: 4vw;
+}

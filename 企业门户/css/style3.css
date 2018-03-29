@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #000;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: #6a1787;
+}
+.navbar-default{
+    background-color: #fff;
+    opacity: 0.7;
+}
+.banner_huiyi .col-md-4{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.banner212 label{
+    width: 120px;
+    float: left;
+    text-align: right;
+}
+.banner212 input[type=number]{
+    width: 298px;
+    height: 33px;
+}
+.banner212 input[type=text]{
+    width: 298px;
+    height: 33px;
+}
+.banner3{
+    padding-bottom: 60px;
+    padding-top: 50px;
+}
+.banner_ren h5{
+    padding-left: 15px;
+}
+.banner_ren{
+    margin-bottom: 60px;
+}
+.navbar-default .navbar-brand{
+    padding-top: 10px;
+}
+.img-responsive{
+    width: 150px;
+}
+.banner1{
+    margin-top: 50px
+}
+.banner1 ul li{
+    float: left;
+    width: 100px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+.banner211{
+    background: #eee;
+    padding: 9px;
+}
+.banner211{
+    color: #003580;
+}
+.banner212{
+    background: #eee;
+    padding: 9px;
+}
+.banner212 ul li{
+    float: left;
+    width: 100px;
+    text-align: left;
+    
+}
+.zaixian select:nth-child(1){
+    width: 300px;
+}
+.banner212 .list-unstyled{
+    height: 24px;
+}
+.banner212 .text-right{
+    padding-right: 20px;
+}
+.banner212 .p1{
+    padding-top: 5px;
+}
+.banner22 ul li{
+    height: 100px;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+}
+.banner3 .col-md-5 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.banner3 .col-md-5 img:hover{
+    border: 1px solid #000;
+}
+.banner22 ul li 
+.col-md-4{
+    border-radius: 81px;
+    width: 81px;
+    height: 81px;
+    display: block;
+}
+.banner22 ul li:nth-child(1) 
+.col-md-4{
+    background: #96d99d;
+}
+.banner22 ul li:nth-child(1)
+.col-md-4:hover{
+    background: #83c68a;
+}
+.banner22 ul li:nth-child(2) 
+.col-md-4{
+    background: #5ba5e3;
+}.banner22 ul li:nth-child(2)
+ .col-md-4:hover{
+     background: #537bb4;
+ }
+.banner22 ul li:nth-child(3) 
+.col-md-4{
+    background: #cce1ff;
+}
+.banner22 ul li:nth-child(3)
+.col-md-4:hover{
+    background: #9cabc8;
+}
+.banner22 ul li:nth-child(4) 
+.col-md-4{
+    background: #ff1111;
+}
+.banner22 ul li:nth-child(4)
+.col-md-4:hover{
+    background: #c81111;
+}
+.banner22 ul li:nth-child(5) 
+.col-md-4{
+    background: #ffa84b;
+}
+.banner22 ul li:nth-child(5)
+.col-md-4:hover{
+    background: #c8823c;
+}
+.banner22 ul li:nth-child(6) 
+.col-md-4{
+    background: #03beff;
+}
+.banner22 ul li:nth-child(6)
+.col-md-4:hover{
+    background: #005fd8;
+}
+.banner22 ul li 
+.col-md-4 i{
+    text-align: center;
+    line-height: 81px;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+}
+.banner-right_20{
+    background: url(../images/banner100.jpg);
+    width:100%;
+    height: 84px;
+}
+.banner-right_20 div{
+    padding-top: 25px;
+}
+.banner-right_20 div:nth-child(1){
+    padding-left: 25px;
+}
+.banner-right_21{
+    background: url(../images/banner101.jpg);
+    width: 100%;
+    height: 200px;
+    color: #fff;
+}
+.banner-right_22{
+    background: url(../images/banner102.jpg);
+    width: 100%;
+    height: 200px;
+     color: #fff;
+}
+.banner-right_23{
+    background: url(../images/banner103.jpg);
+    width: 100%;
+    height: 200px;
+     color: #fff;
+}
+.banner_right_wenzi{
+    padding: 20px;
+
+}
+
+section{
+    width: 100%;
+    background: #2352ee;
+        padding-bottom: 30px;
+}
+section #sheng,#city{
+    margin-bottom: 10px;
+}
+section .section1{
+    background: #fff;
+    border-radius: 10px;
+    padding-bottom: 15px;
+     margin-top: 30px;
+}
+.section2 h2{
+    color: #fff;
+    margin-top: 47px
+}
+/*#kuang{
+    width: 71%;
+}*/
+.section2 .col-md-9,.section2 .col-md-3{
+    padding: 0;
+}
+footer{
+    margin-bottom: 30px;
+}
+.footer_content{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.footer_content ul li{
+    padding-bottom: 5px
+}
+.footer_content ul li a{
+    color: #5187de;
+}
+.footer_content ul li a:hover{
+    color: aqua;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="js/flexible.js"></script>
+    <script src="js/flexible_css.js"></script>
+    <script src="js/iconfont.js"></script>
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .classify-list .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height:160px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!--header部分开始-->
+        <header>
+            <link rel="stylesheet" href="css/swiper.min.css">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/homepage1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/homepage4.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/homepage3.jpg" alt=""></div>
+                </div>
+            </div>
+            <script src="js/swiper.min.js"></script>
+            <script>
+                var swiper = new Swiper('header .swiper-container', {
+                    spaceBetween: 30,
+                    centeredSlides: true,
+                    loop: true,
+                    autoplay: {
+                        delay: 2500,
+                        disableOnInteraction: false
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true
+                    }
+                });
+            </script>
+            <div class="header-search">
+                <input type="text" placeholder="请输入关键词" class="z_fixed">
+            </div>
+        </header>
+        <!--header部分结束-->
+        <!--classify分类开始-->
+        <div class="classify">
+            <div class="classify-nav">
+                <link rel="stylesheet" href="css/swiper.min.css">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">为您推荐</div>
+                        <div class="swiper-slide">上衣</div>
+                        <div class="swiper-slide">裤类</div>
+                        <div class="swiper-slide">鞋靴</div>
+                        <div class="swiper-slide">包类</div>
+                        <div class="swiper-slide">服配</div>
+                        <div class="swiper-slide">数码3C</div>
+                        <div class="swiper-slide">玩具礼品</div>
+                        <div class="swiper-slide">美妆\个护</div>
+                    </div>
+                </div>
+                <script src="js/swiper.min.js"></script>
+                <script>
+                    var swiper = new Swiper('.classify-nav .swiper-container', {
+                        slidesPerView: 5,
+                        spaceBetween: 30,
+                        freeMode: true,
+                        pagination: {
+                            el: '.classify-nav .swiper-pagination',
+                            clickable: true
+                        }
+                    });
+                </script>
+            </div>
+            <div class="classify-img">
+                <img src="images/homepage9.jpg" alt="">
+            </div>
+            <div class="classify-p">
+                精彩活动
+            </div>
+            <div class="classify-list">
+                <!--<img src="images/homepage19.jpg" alt="">
+                <img src="images/homepage18.jpg" alt="">
+                <img src="images/homepage16.jpg" alt="">-->
+                <link rel="stylesheet" href="css/swiper.min.css">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background-image:url(images/homepage19.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(images/homepage18.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(images/homepage16.jpg)"></div>
+                    </div>
+                </div>
+                <script src="js/swiper.min.js"></script>
+                <script>
+                    var swiper = new Swiper('.classify-list .swiper-container', {
+                        effect: 'coverflow',
+                        grabCursor: true,
+                        centeredSlides: true,
+                        slidesPerView: 'auto',
+                        coverflowEffect: {
+                            rotate: 50,
+                            stretch: 0,
+                            depth: 100,
+                            modifier: 1,
+                            slideShadows : true
+                        },
+                        pagination: {
+                            el: '.classify-list .swiper-pagination'
+                        }
+                    });
+                </script>
+            </div>
+            <!--<script>
+                var curIndex = 0;
+                var arr = new Array();
+                arr[0] = "images/homepage19.jpg";
+                arr[1] = "images/homepage18.jpg";
+                arr[2] = "images/homepage16.jpg";
+                var obj=document.getElementsByClassName("classify-list")
+                obj.onclick=function(){
+                    var obj = document.getElementsByClassName("obj");
+                    if(curIndex == arr.length-1){
+                        curIndex = 0;
+                    }else {
+                        curIndex += 1;
+                    }
+                    obj.src = arr[curIndex];
+                }
+            </script>-->
+            <div class="classify-li">
+                <div class="classify-li-p">热门分类</div>
+                <div class="classify-a2">
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
+                <div class="classify-a1">
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
+            </div>
+            <div class="classify-counter">
+                <p class="classify-cop">人气推荐</p>
+                <img src="images/classify%20(28).jpg" alt="" class="classify-cimg">
+                <link rel="stylesheet" href="css/swiper.min.css">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/classify%20(52).jpg" alt="">
+                            <span>￥256.00</span>
+                            <p>109人</p>
+                            <h6>正在浏览</h6>
+                        </div>
+                        <div class="swiper-slide"><img src="images/classify%20(29).jpg" alt="">
+                            <span>￥99.00</span>
+                            <p>692人</p>
+                            <h6>正在浏览</h6>
+                        </div>
+                        <div class="swiper-slide"><img src="images/classify%20(30).jpg" alt="">
+                            <span>￥218.00</span>
+                            <p>150人</p>
+                            <h6>正在浏览</h6>
+                        </div>
+                        <div class="swiper-slide"><img src="images/classify%20(37).jpg" alt="">
+                            <span>￥199.00</span>
+                            <p>160人</p>
+                            <h6>正在浏览</h6>
+                        </div>
+                        <div class="swiper-slide"><img src="images/classify%20(38).jpg" alt="">
+                            <span>￥730.00</span>
+                            <p>550人</p>
+                            <h6>正在浏览</h6>
+                        </div>
+                        <div class="swiper-slide"><img src="images/classify%20(31).jpg" alt="">
+                            <span>￥362.00</span>
+                            <p>162人</p>
+                            <h6>正在浏览</h6>
+                        </div>
+                        <div class="swiper-slide"><img src="images/classify%20(34).jpg" alt="">
+                            <span>￥167.00</span>
+                            <p>1666人</p>
+                            <h6>正在浏览</h6>
+                        </div>
+                        <div class="swiper-slide"><img src="images/classify%20(32).jpg" alt="">
+                            <span>￥88.00</span>
+                            <p>565人</p>
+                            <h6>正在浏览</h6>
+                        </div>
+                        <div class="swiper-slide"><img src="images/classify%20(33).jpg" alt="">
+                            <span>￥116.00</span>
+                            <p>381人</p>
+                            <h6>正在浏览</h6>
+                        </div>
+
+                        <div class="swiper-slide"><img src="images/classify%20(35).jpg" alt="">
+                            <span>￥300.00</span>
+                            <p>415人</p>
+                            <h6>正在浏览</h6>
+                        </div>
+                        <div class="swiper-slide"><img src="images/classify%20(36).jpg" alt="">
+                            <span>￥210.00</span>
+                            <p>324人</p>
+                            <h6>正在浏览</h6>
+                        </div>
+
+                    </div>
+                    <!-- Add Pagination -->
+                </div>
+
+                <!-- Swiper JS -->
+                <script src="js/swiper.min.js"></script>
+
+                <!-- Initialize Swiper -->
+                <script>
+                    var swiper = new Swiper('.classify-counter .swiper-container', {
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                        freeMode: true,
+                        pagination: {
+                            el: '.classify-counter .swiper-pagination',
+                            clickable: true
+                        }
+                    });
+                </script>
+            </div>
+        </div>
+        <!--classify分类结束-->
+        <!--Sale开始-->
+        <div class="Sale">
+            <div class="Sale-wenzi">今日特卖 · 每天早10点 晚8点上新</div>
+            <div class="Sale-1">
+                <img src="images/classify%20(54).jpg" alt="">
+                <p>外套夯售，低至4.8折</p>
+            </div>
+            <div class="Sale-1">
+                <img src="images/classify-(53).jpg" alt="">
+                <p>夏季之爱衣</p>
+            </div>
+            <div class="Sale-1">
+                <img src="images/classify%20(40).jpg" alt="">
+                <img src="images/classify%20(58).jpg" alt="">
+                <p>被 Supreme 玩过的品牌原来这么牛！</p>
+            </div>
+            <div class="Sale-1">
+                <img src="images/classify%20(55).jpg" alt="">
+                <p>怕冷的潮人今年冬天有福了！</p>
+            </div>
+            <div class="Sale-1">
+                <img src="images/classify%20(56).jpg" alt="">
+                <p>Levi’s CNY系列热闹发售</p>
+            </div>
+            <div class="Sale-1">
+                <img src="images/classify%20(57).jpg" alt="">
+                <p>想成为养生潮人，一双靴子就够了！</p>
+            </div>
+            <div class="Sale-2">
+                <div class="Sale-21">
+                    <a href="index6.html">登录</a>
+                    <a href="index5.html">注册</a>
+                    <a href="">反馈</a>
+                    <a href="">帮助</a>
+                </div>
+                <div class="Sale-22" id="infm-banner-bottom8">回到顶部</div>
+            </div>
+        </div>
+        <!--Sale结束-->
+        <div class="footer-nav">
+            <h5>
+                <i class="iconfont icon-shouye"></i>
+                <a href="javascript:;">首页</a>
+            </h5>
+            <h5>
+                <i class="iconfont icon-leimupinleifenleileibie"></i>
+                <a href="index2.html">分类</a>
+            </h5>
+            <h5>
+                <i class="iconfont icon-nanshi"></i>
+                <a href="index3.html">男士</a>
+            </h5>
+            <h5>
+                <i class="iconfont icon-cart--copy"></i>
+                <a href="index1.html">购物车</a>
+            </h5>
+            <h5>
+                <i class="iconfont icon-huiyuan-copy"></i>
+                <a href="index4.html">我的</a>
+            </h5>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script>
+       $(window).scroll(function() {
+           var top = $(window).scrollTop();
+           if(top>=230){
+               $(".classify-nav").css({"position":"fixed","z-index":"999","top":"0",
+                   "background-image":"linear-gradient(90deg, rgb(252, 252, 252) 0%, rgb(251, 248, 242) 100%)"});
+           }else{
+               $(".classify-nav").css({"position":"relative"});
+           }
+       });
+
+       window.onload = function(){
+           var obtn = document.getElementById('infm-banner-bottom8');  //获取回到顶部按钮的ID
+           var clientHeight = document.documentElement.clientHeight;   //获取可视区域的高度
+           var timer = null; //定义一个定时器
+           var isTop = true; //定义一个布尔值，用于判断是否到达顶部
+
+
+
+           window.onscroll = function(){         //滚动条滚动事件
+
+               //获取滚动条的滚动高度
+               var osTop = document.documentElement.scrollTop || document.body.scrollTop;
+               //主要用于判断当 点击回到顶部按钮后 滚动条在回滚过程中，若手动滚动滚动条，则清除定时器
+               if(!isTop){
+                   clearInterval(timer);
+               }
+               isTop = false;
+           };
+           obtn.onclick = function(){    //回到顶部按钮点击事件
+               //设置一个定时器
+           timer = setInterval(function(){
+                   //获取滚动条的滚动高度
+                   var osTop = document.documentElement.scrollTop || document.body.scrollTop;
+                   //用于设置速度差，产生缓动的效果
+                   var speed = Math.floor(-osTop / 6);
+                   document.documentElement.scrollTop = document.body.scrollTop = osTop + speed;
+                   isTop =true;  //用于阻止滚动事件清除定时器
+                   if(osTop == 0){
+                       clearInterval(timer);
+                       img.scrollTop=document.body.scrollTop=0
+                   }
+               },30);
+           }
+       }
+    </script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #000;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: #6a1787;
+}
+.navbar-default{
+    background-color: #fff;
+    opacity: 0.7;
+}
+.navbar-default .navbar-brand{
+    padding-top: 10px;
+}
+.img-responsive{
+    width: 150px;
+}
+.header_banner{
+    margin-top: 50px;
+}
+.item img{
+    width: 100%;
+}
+.section_2 .col-md-4{
+    position: relative;
+}
+.section_2 .col-md-4 .section_21{
+position: absolute;
+    top:10px;
+    left: 25px;
+}
+.jiudian1{
+    float: left;
+    width: 100px;
+    background: #514eb1;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    margin-right: 10px;
+}
+.jiudian2{
+    float: right;
+    width: 146px;
+    background: #9e0920;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+}
+.section_3 img{
+    width: 100%;
+    border-radius: 10px;
+}
+footer{
+     background: url("../images/footer-bg.jpg")no-repeat;
+     width: 100%;
+     color: #fff;
+     padding-bottom: 60px;
+    margin-top: 50px;
+    padding-top: 30px;
+ }
+footer a{
+    color: #fff;
+}
+footer .guonei{
+    padding-top: 15px;
+}
+.section_3 .col-md-5 h5{
+    color: #fff;
+    font-weight: 700;
+}
+.section_3 .col-md-7{
+    padding-top: 30px;
+}
+.section_3 .col-md-5{
+    padding-top: 30px;
+}
+.section_1 .text-center,.section_2 .text-center{
+   padding: 15px 0;
+}
+.section_3 .off{
+    position: relative;
+    left: 268px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    line-height: 23px;
+    border-radius: 20px;
+}
+.section_31,.section_32,.section_33{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 1100;
+    padding-left: 176px;
+    padding-top: 150px;
+}
+.section_1 img:hover{
+    transition: 1s;
+    transform: scaleX(1.1);
+}
+.section_1 .thumbnail{
+    overflow: hidden;
+    width: 100%;
+}
+.section_4 .banner212
+.banner_ren h5{
+    padding-left: 15px;
+}
+.section_4 .banner211{
+    background: #4ecbfe;
+    padding: 9px;
+}
+.section_4 .banner211{
+    color: #fff;
+}
+.section_4 .banner212{
+    background: #6fffd6;
+    padding: 9px;
+}
+.section_4 .banner212 ul li{
+    float: left;
+    width: 100px;
+    text-align: left;
+
+}
+.section_4 .banner212 .list-unstyled{
+    height: 24px;
+}
+.section_4 .banner212 .text-right{
+    padding-right: 20px;
+}
+.section_4 .banner212 .p1{
+    padding-top: 5px;
+}
+.section_4 .col-md-6{
+    margin-top: 30px;
+}

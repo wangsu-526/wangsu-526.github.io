@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #000;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: #6a1787;
+}
+.navbar-default{
+    background-color: #fff;
+    opacity: 0.7;
+}
+.navbar-default .navbar-brand{
+    padding-top: 10px;
+}
+.img-responsive{
+    width: 150px;
+}
+.banner_img{
+    width: 100%;
+    margin-top: 49px;
+    height: 740px;
+}
+.tab{
+    float: right;
+    margin-top: 50px;
+}
+.banner_1 ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.banner_1 li{
+    float: left;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+.first{
+    background: #e1f2fc;
+}
+.second{
+    background: #89caf4;
+}
+.li1{
+    width: 500px;
+    height: 360px;
+    clear: both;
+}
+.li2{
+    height: 202px;
+    width: 500px;
+    clear: both;
+}
+.li1{
+    background: #e1f2fc;
+
+}
+.li1 .p1,.li2 .p3{
+    padding-left: 60px;
+    padding-top: 20px;
+}
+.li2{
+    background: #89caf4;
+    display: none;
+}
+
+input{
+    width: 339px;
+    height: 41px;
+    border: 1px solid #ccc;
+    padding-left: 41px;
+    margin: 11px 59px;
+    border-radius: 5px;
+}
+input[type="number"]{
+    width: 100px;
+}
+input[type="text"]{
+    background:#fff url("../images/name_03.jpg") no-repeat;
+}
+input[type="password"]{
+    background:#fff url("../images/pwd_06.jpg") no-repeat;
+}
+input[type="submit"]{
+    padding: 0;
+    width:335px;
+    background: #79b1d4;
+    color: #d1ccd0;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.li2 .p1{
+    padding-top: 20px;
+    margin-left: 60px;
+}
+.p2{
+    margin-left: 150px;
+}
+.header_banner{
+    background: url(../images/banner22.jpg);
+    width: 100%;
+    height:600px;   
+    margin-top: 51px;
+}
+.header_banner .container .col-md-6:nth-child(1){
+    padding-top: 160px;
+ }
+.br_container_1 .col-md-3{
+    position: relative;
+}
+.br_container_1 .col-md-3 .p11{
+    position:absolute;
+    top: 43%;
+    left: 18%;
+}
+#mysdcanvas:hover{
+    background: #000;
+}
+#mysdcanvas .p11{
+    z-index: 2;
+}
+section{
+    margin-top: 50px;
+}
+section .h1{
+    padding-bottom: 50px;
+}
+
+.banner_containt .br_container_1 .col-md-3{
+background: url("../images/banner104.png")no-repeat;
+    width: 209px;
+    height: 214px;
+    margin-right: 35px;
+    margin-left: 35px;
+    color: #fff;
+    text-align: center;
+
+}
+.banner_div1 h5{
+     padding-top: 82px;
+}
+footer{
+    padding: 60px 0;
+}

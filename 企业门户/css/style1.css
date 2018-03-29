@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #000;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: #6a1787;
+}
+.navbar-default{
+    background-color: #fff;
+    opacity: 0.7;
+}
+.navbar-default .navbar-brand{
+    padding-top: 10px;
+}
+.img-responsive{
+    width: 150px;
+}
+.container{
+    overflow: hidden;
+}
+.section_head .h2 .i1{
+    padding-right: 44px;
+    font-size: 20px;
+}
+.banner img{
+    width: 100%;
+}
+.section_head{
+    padding-bottom: 30px;
+    padding-top: 60px;
+}
+.section_head .h2 .i2{
+    padding-left: 44px;
+    font-size: 20px;
+}
+.section_text .thumbnail{
+    overflow: hidden;
+}
+.section_qiuhumaca .thumbnail img:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.section_qiuhumaca .img3 img{
+    height: 193px;
+}
+.section1{
+    padding-bottom: 90px;
+}
+.section2{
+   background: #eee;
+}
+.section2 .section_head{
+    color: #000;
+}
+.section2 .section_text{
+    padding-bottom: 60px;
+}
+.section3 .section_text{
+    padding-bottom: 60px;
+}
+.section3 .section_text .col-md-12 .thumbnail{
+    margin-top: 15px;
+}
+.section3 .section_text .col-md-12:hover{
+    border: 2px solid #ccc;
+}
+footer{
+    background: url("../images/footer-bg.jpg")no-repeat;
+    width: 100%;
+    padding-bottom: 50px;
+    color: #fff;
+}
+footer img{
+    width: 150px;
+    height: 150px;
+}
+footer .container{
+    padding-top: 100px;
+}
+.footer4 a{
+    color: #fff;
+}

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="js/flexible.js"></script>
+    <script src="js/flexible_css.js"></script>
+    <script src="js/iconfont.js"></script>
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="Shopping">
+            <div class="shopping-header">
+                <i></i>
+                <div>购物车</div>
+            </div>
+            <div class="shopping-cart">
+                <div class="shopping-p">
+                    <i class="iconfont icon-cart--copy"></i>
+                    请您先 <a href="index6.html">登录</a>可以同步电脑和手机中的商品
+                </div>
+                <i></i>
+                <p>您的购物车没有商品</p>
+                <a class="shoping-a" href="index.html">去逛街</a>
+            </div>
+            <div class="shopping-text">
+                <div class="shopping-t1">
+                    <div class="i">
+                        <i>√</i>
+                    </div>
+                    <h6>三横一竖的小店</h6>
+                </div>
+                <div class="shopping-t2">
+                    <div class="shopping-t2l">
+                        <div class="i"><i>√</i></div>
+                        <img src="images/tupian.jpg" alt="">
+                    </div>
+                    <div class="shopping-t2r">
+                        <p>
+                            时尚潮流百搭基本款 拼接分割宽松长袖衬衫 白色 M
+                        </p>
+                        <div class="shopping-wenzi">
+                            <span id="shopping-wenzi">162</span>
+                            <div class="input">
+                                <input type="submit" value="-" onclick="reduce()" class="reduce">
+                                <input type="submit" value="1" id="content">
+                                <input type="submit" value="+" onclick="add()" class="add">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shopping-input">
+                <button>删除</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/javascript.js"></script>
+    <script>
+        $(".shopping-t1 .i i").click(function(){
+            $(this).toggleClass("red");
+            $(".shopping-t2l .i i").toggleClass("red")
+        });
+        $(".shopping-t2l .i i").click(
+                function(){
+                    $(this).toggleClass("red")
+                }
+        );
+        $(".shopping-input button").click(
+                function(){
+                    $(".shopping-text").hide();
+                    $(this).hide();
+                    $(".shopping-cart").show();
+                }
+        );
+        var wenzi1=document.getElementById("shopping-wenzi");
+        var wenzi=parseFloat(wenzi1.innerHTML);
+        var btn=document.getElementById('content');
+        var number=parseInt(btn.value);
+        function reduce(){
+            if (number==1)return;
+            number--;
+            btn.value=number;
+            wenzi1.innerHTML=wenzi/number
+        }
+        function add(){
+            if(number>=100)return;
+            number++;
+            btn.value=number;
+            wenzi1.innerHTML=162*number
+        }
+    </script>
+</body>
+</html>

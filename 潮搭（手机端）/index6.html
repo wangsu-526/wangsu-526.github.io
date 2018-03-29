@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="js/flexible.js"></script>
+    <script src="js/flexible_css.js"></script>
+    <script src="js/iconfont.js"></script>
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .container{
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="register-header">
+            <a href="index.html" class="zhuce"> <i class="iconfont icon-shouye"></i></a>
+            会员登录
+            <a href="index5.html" class="denglu">注册</a>
+        </div>
+        <div class="Login-1">
+            <div class="active">账号密码登录</div>
+            <div>手机验证码登录</div>
+        </div>
+        <div class="Login-2">
+            <div class="Login-21">
+                <div><span>账号</span><input type="text" placeholder="手机号/邮箱/用户名/门店会员卡" class="phone"></div>
+                <div><span>密码</span><input type="text" placeholder="请输入6-20位潮搭密码" class="phone"></div>
+            </div>
+            <div class="Login-21" style="display: none">
+                <div><span>手机号</span><input type="text" placeholder="请输入手机号" class="phone"></div>
+                <div class="xian"><span>手机验证码</span>
+                    <input type="text" placeholder="请输入手机验证码" class="possword"></div>
+                    <input type="submit" value="获取验证码" onclick="settime(this)" id="btn">
+            </div>
+        </div>
+        <div class="Login-3">
+            <a href="">登录</a>
+        </div>
+        <div class="Login-4">
+            <div class="Login_4L">门店卡登录</div>
+            <div class="Login_4R">忘记密码</div>
+        </div>
+        <div class="Login-5">
+            <a href="index5.html">快速注册</a>
+        </div>
+        <div class="Login-6">
+            <div class="Login-60">
+                <div class="Login_xian1"></div>
+                <div class="Login-6p">其他方式登录</div>
+                <div class="Login_xian2"></div>
+            </div>
+        </div>
+        <div class="Login-7">
+            <div class="Login-70">
+                <h6>QQ</h6>
+                <h6>易付宝</h6>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script>
+        $(".Login-1>div").click(
+                function(){
+                    var index=$(this).index();
+                    $(".Login-2 .Login-21").eq(index).show().siblings().hide();
+                    $(this).addClass("active").siblings().removeClass("active")
+                }
+        );
+        /*倒计时*/
+        var countdown=60;
+        function settime(val) {
+            if (countdown == 0) {
+                val.removeAttribute("disabled");
+                val.value = "免费获取验证码";
+                countdown = 60;
+            } else {
+                val.setAttribute("disabled", true);
+                val.value = "重新发送(" + countdown + ")";
+                countdown--;
+                setTimeout(function () {
+                    settime(val)
+                }, 1000)
+            }
+        };
+
+    </script>
+</body>
+</html>
